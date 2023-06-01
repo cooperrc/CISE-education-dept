@@ -6,7 +6,7 @@ filename = datetime.datetime.now()
 
 f = open(filename.strftime("%Y_%m_%d-%H_%M")+".txt", "w")
 
-openai.api_key = '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' #os.getenv("OPENAI_API_KEY")
+openai.api_key = '' #os.getenv("OPENAI_API_KEY")
 
 messages = [
  {"role": "system", "content" : "You're a kind helpful assistant"}
